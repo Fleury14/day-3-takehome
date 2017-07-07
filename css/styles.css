@@ -1,0 +1,52 @@
+body {
+   background-color: #ffc65c;
+
+}
+
+/*.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #000052;*/
+
+.main-jumbo {
+  margin-top: 100px;
+
+}
+
+.table-btn {
+  width: 100%;
+}
+
+.content-row {
+  margin-top: 10px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  border-radius: 3%;
+  border: 2px solid #000052;
+}
+
+.table-head {
+  background-color: #fff;
+  border: 3px solid #000052;
+}
+
+.refer-well {
+  margin-top: 50px;
+}
+
+/*Media Queries*/
+
+@media only screen and (max-width: 768px) {
+  .table-head {
+    display: none;
+  }
+
+  .content-row {
+    margin-top: 60px;
+  }
+
+  .player-name {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+}
